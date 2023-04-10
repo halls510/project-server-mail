@@ -10,6 +10,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/New_York
+      - URL=srvmail.nicoledepaula.adv.br      
       - CF_API_EMAIL=${CF_API_EMAIL}
       - CF_API_KEY=${CF_API_KEY}
       - CF_ZONE_ID=${CF_ZONE_ID}
