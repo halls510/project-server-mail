@@ -46,9 +46,6 @@ services:
       - DNSPLUGIN=cloudflare
       - EMAIL=halls510@hotmail.com
       - CERTPROVIDER=zerossl
-      - CF_API_EMAIL=${CF_API_EMAIL}
-      - CF_API_KEY=${CF_API_KEY}
-      - CF_ZONE_ID=${CF_ZONE_ID}    
 
     volumes:
       - ./swag/config:/config
